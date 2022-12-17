@@ -1,11 +1,9 @@
 import pandas as pd
 import numpy as np
 from typing import Callable
-
 import xgboost as xgb
 
-from ml_forge.util.timer import Timer
-
+from ml_vite.util.timer import Timer
 
 def fit_xgb(
     X: pd.DataFrame, 

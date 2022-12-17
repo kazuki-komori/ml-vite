@@ -1,7 +1,6 @@
 import datetime
 import pandas as pd
 
-
 def save_sub(
   df_sub: pd.DataFrame,
   nb_num: str,

@@ -7,7 +7,7 @@ import japanize_matplotlib
 
 from typing import Callable
 
-from ml_forge.util.timer import Timer
+from ml_vite.util.timer import Timer
 
 
 def fit_lgbm(

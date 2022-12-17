@@ -1,5 +1,5 @@
 import pandas as pd
-from ml_forge.util.timer import Timer
+from ml_vite.util.timer import Timer
 
 class AbstractBaseBlock:
   """BaseBlock 定義"""
