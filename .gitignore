@@ -1,0 +1,5 @@
+.gitconfig
+.vscode-server
+.ssh
+__pycache__
+.cache
