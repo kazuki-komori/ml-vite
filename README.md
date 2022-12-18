@@ -17,3 +17,8 @@ git clone https://github.com/kazuki-komori/ml-vite.git
 ```py
 import sys; sys.path.append("./ml-vite")
 ```
+
+## test install
+```sh
+pip install -i https://test.pypi.org/simple/ ml-vite
+```

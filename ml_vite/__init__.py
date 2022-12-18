@@ -1,0 +1,1 @@
+from ml_vite.version import __version__

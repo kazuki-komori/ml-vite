@@ -3,3 +3,6 @@
 .ssh
 __pycache__
 .cache
+dist
+build
+*.egg-info
