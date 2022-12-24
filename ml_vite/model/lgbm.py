@@ -41,9 +41,11 @@ def fit_lgbm(
       oof_pred[idx_valid] = pred_i
 
       if score_func.__name__ == "accuracy_score":
-        print(f" - fold{i + 1} - :\t {score_func(y_valid, np.round(pred_i).astype(int))}")
+        score = score_func(y_valid, np.round(pred_i).astype(int))
+        print(f" - fold{i + 1} - :\t {score}")
       else:
-        print(f" - fold{i + 1} - :\t {score_func(y_valid, pred_i)}")
+        score = score_func(y_valid, pred_i)
+        print(f" - fold{i + 1} - :\t {score}")
 
       scores.append(score)
       models.append(model)
