@@ -2,7 +2,7 @@ import pandas as pd
 import lightgbm as lgbm
 from sklearn.model_selection import train_test_split
 
-from tqdm.notebook import tqdm
+from tqdm.auto import tqdm
 from typing import List, Dict
 
 class LGBMImputer:

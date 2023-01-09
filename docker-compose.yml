@@ -4,7 +4,7 @@ services:
     restart: always
     build: .
     container_name: 'python3.8'
-    working_dir: '/root/'
+    working_dir: '/workspace/'
     tty: true
     volumes:
-      - .:/root
+      - .:/workspace

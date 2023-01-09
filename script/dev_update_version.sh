@@ -6,4 +6,4 @@ rm -rf build dist
 
 python setup.py sdist bdist_wheel
 
-twine upload --config-file .pypirc --repository pypi dist/*
+twine upload --config-file .pypirc --repository testpypi dist/*
